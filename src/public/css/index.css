@@ -1,0 +1,300 @@
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    /*margin-bottom: 15px;*/
+    margin-bottom: 100px;
+}
+
+.form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    background: #fafafa;
+    color: #aaa;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+
+
+    appearance: none;
+}
+
+.form_input {
+    padding: 10px;
+    /*width: 600px;*/
+    width: 290px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+
+    appearance: none;
+}
+
+.form__input--text-2 {
+    padding: 10px;
+    width: 280px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-right: 20px;
+
+
+    appearance: none;
+    display: inline-block;
+}
+
+.form__input--text-1 {
+    padding: 10px;
+    width: 280px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin: auto;
+
+
+    appearance: none;
+    display: inline-block;
+
+}
+
+.boder__none {
+    border: none;
+}
+
+
+
+.name__box {
+
+    display: flex;
+    /*justify-content: space-between;*/
+    /*margin-bottom: 15px;*/
+    /*padding: 10px;
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 3px;*/
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    padding: 10px;
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 0% 0% 0% 0%;
+
+
+    appearance: none;
+
+
+}
+
+.form_first__name {
+    /*display: block;
+        width: 300px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        justify-content: space-between;
+        height: 40px;
+        padding: 0 0 0 24px;
+        margin: 0 0 0 0;*/
+    display: inline-block;
+    /*コレ*/
+    padding: 10px 50px 10px 0%;
+
+    width: 48%;
+    /*padding: 1em 0.5em;*/
+
+
+    line-height: 2;
+
+    border: 1px solid #999;
+    box-sizing: border-box;
+    background: #f2f2f2
+        /*max-width: 100%;
+        padding: 0.5em;*/
+        /*border: 1px solid #999;
+        box-sizing: border-box;
+        background: #f2f2f2;
+        margin: 0.5em 0;*/
+        /*margin: 0 0 0 0;
+        padding: 0 0 0 0;*/
+
+}
+
+
+.form_first2__name {
+
+    display: inline-block;
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    background: #f2f2f2;
+    margin: 0.5em 0;
+
+
+}
+
+
+.form__group2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+
+
+.form_second__name {
+    /*display: block;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    justify-content: space-between;
+    height: 40px;
+    padding: 0 0 0 24px;
+    margin: 0 0 0 0;*/
+    display: inline-block;
+    /*コレ*/
+
+    width: 48%;
+    padding: 1em 0.5em;
+    line-height: 2;
+
+    border: 1px solid #999;
+    box-sizing: border-box;
+    background: #f2f2f2
+        /*max-width: 100%;
+    padding: 0.5em;*/
+        /*border: 1px solid #999;
+    box-sizing: border-box;
+    background: #f2f2f2;
+    margin: 0.5em 0;*/
+        /*margin: 0 0 0 0;
+    padding: 0 0 0 0;*/
+}
+
+
+.form_input-inner {
+    margin-left: 20px;
+    margin-right: -600px;
+    max-width: 600px;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+
+    /*padding: 10px;
+    width: 600px;*/
+    border: 1px solid #ddd;
+    border-radius: 3px;
+
+    appearance: none;
+
+}
+
+
+.form__input--text input {
+    height: 40px;
+}
+
+
+.form__input--textarea textarea {
+    height: 180px;
+}
+
+.form__button {
+    margin-top: 30px;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.redio__move {
+    margin: 0px -30px 0px 0px;
+
+}
+
+.redio__move-2 {
+    margin: 0px 20px 0px 0px;
+
+}
+
+.redio-text__space {
+    margin-right: 50px;
+
+}
+
+.radio_name__space {
+    display: flex;
+}
+
+.radio_frex {
+    display: flex;
+}
+
+.redio-text__move-1 {
+    margin: 0px 50px 0px 0px;
+
+}
+
+.redio-text__move-2 {
+    margin: 0px 420px 0px 0px;
+
+}
+
+.form__label--post {
+    margin: 0px 0px 0px 150px;
+}
+
+.input-change__size {
+
+    padding: 10px;
+    width: 550px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+
+
+    appearance: none;
+
+
+}
+
+.example {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
